@@ -1,0 +1,150 @@
+<html>
+
+<head>
+    <title>CSS Basics</title>
+
+    <style>
+        .center {
+            border: 3px solid green;
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .image {
+            margin: auto;
+            margin-top: 10px;
+            width: 50%;
+        }
+
+        #static {
+            position: static;
+            border: 1px solid aqua;
+        }
+
+        #relative {
+            position: relative;
+            border: 2px solid aqua;
+            right: 50px;
+            left: 50%;
+            display: inline-block;
+            padding: 100px;
+        }
+
+        #fixed {
+            position: fixed;
+            border: 2px solid aqua;
+            bottom: 0;
+            right: 0;
+        }
+
+        #absolute {
+            position: absolute;
+            border: 1px solid black;
+            right: 30;
+            top: 500px;
+        }
+
+        .float p {
+            display: inline-block;
+            width: 50%;
+            margin-top: 10%;
+            text-align: justify;
+        }
+
+        .float img {
+            float: right;
+        }
+
+        #overflow {
+            background-color: aqua;
+            height: 100px;
+            width: 50%;
+            overflow: scroll;
+        }
+
+        #heading {
+            border: 3px solid aqua;
+            width: 50%;
+            margin: auto;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        #footer {
+            width: 50%;
+            margin: auto;
+            margin-top: 10px;
+            border: 1px solid black;
+            padding-left: 30px;
+        }
+
+        ol {
+            background-color: rgb(244, 142, 159);
+            padding: 20px;
+        }
+
+        ol li {
+            background-color: pink;
+            color: black;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <h1>Lecture 01</h1>
+    </div>
+
+    <div class="image">
+        <img src="images/home.jpeg" alt="image" />
+    </div>
+    <!-- 
+    <h1 id="static"> Static </h1> -->
+    <h2 id="relative">Relative</h2>
+    <!-- <h3 id="fixed"> Fixed </h3> -->
+    <h4 id="absolute">Absolute</h4>
+
+    <div class="float">
+        <img src="images/home.jpeg" alt="" />
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus
+            repudiandae nemo maxime? Officia cumque vitae voluptatibus ipsa officiis
+            itaque recusandae quasi eaque ad. Sed repellat excepturi nulla inventore
+            natus sequi!
+        </p>
+    </div>
+
+    <div id="overflow">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nihil
+        tenetur corrupti! Adipisci nam ullam iure omnis quas non explicabo rerum
+        tempore, accusamus, quaerat nulla. Error voluptates quis facilis nihil!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eius,
+        nesciunt exercitationem accusantium quam impedit mollitia dolorum ipsam
+        aliquid fugit quos nam ea eaque libero ullam qui. Ducimus, tempore sequi?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt libero
+        quidem omnis porro! Nesciunt totam, eaque voluptates possimus minus,
+        nostrum, quasi aliquid saepe ad soluta itaque error distinctio alias
+        dignissimos?
+    </div>
+
+
+    <div id="heading">
+        <h1>heading</h1>
+    </div>
+
+    <div id="footer">
+        <img src="images/home.jpeg" alt="">
+    </div>
+
+    <ol>
+        <li>Systems Limited</li>
+        <li>Devsinc</li>
+        <li>Kavtech</li>
+        <li>Dotlabs</li>
+    </ol>
+</body>
+
+</html>
